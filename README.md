@@ -65,14 +65,11 @@ Vocational_Training_Portfolio_Project_2026/
 
 ## 🚀 How to Run This Project
 
-1. 📥 Clone this repository:
-   ```
-   git clone https://github.com/Anshal-Shukla01/Vocational_Training_Portfolio_Project_2026.git
-   ```
-2. 📂 Open the folder `Vocational_Training_Portfolio_Project_2026`
-3. 🖱️ Double-click `index.html` to open it in your web browser
+Just click the link below to view the live website:
 
-> ⚡ No installation or extra setup is required since this is a static HTML/CSS website.
+🔗 **https://anshal-shukla01.github.io/Vocational_Training_Portfolio_Project_2026/**
+
+> ⚡ No installation, download, or setup required — it opens directly in your browser.
 
 ## 💡 What I Learned
 
