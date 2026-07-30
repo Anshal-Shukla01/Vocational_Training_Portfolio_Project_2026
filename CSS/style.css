@@ -412,22 +412,26 @@ section{
 
 }
 .blur-1{
-
+    width:420px;
+    height:420px;
+    background:#4CAF50;
+    filter:blur(140px);
+    opacity:0.18;
+    position:fixed;
     top:-120px;
-
     left:-120px;
-
-    background:rgba(56,189,248,.18);
-
+    z-index:-2;
 }
 .blur-2{
-
-    bottom:-120px;
-
-    right:-120px;
-
-    background:rgba(139,92,246,.18);
-
+    width:380px;
+    height:380px;
+    background:#D4AF37;
+    filter:blur(150px);
+    opacity:0.12;
+    position:fixed;
+    bottom:-100px;
+    right:-100px;
+    z-index:-2;
 }
 @keyframes floatGlow{
 
