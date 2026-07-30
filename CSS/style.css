@@ -15,27 +15,26 @@
 :root{
 
     /* Background Colors */
-    --background-color: #0D1117;
-    --surface-color: #161B22;
-    --card-color: rgba(255,255,255,0.05);
+    --background-color:#0E1116;
+    --surface-color:#171C23;
+    --card-color:rgba(255,255,255,0.06);
 
     /* Text Colors */
-    --primary-text: #F8FAFC;
-    --secondary-text: #94A3B8;
+    --primary-text:#F4F4F4;
+    --secondary-text:#B8C0CC;
 
     /* Accent Colors */
-    --primary-color: #38BDF8;
-    --secondary-color: #8B5CF6;
+    --primary-color:#4CAF50;
+    --secondary-color:#8BC34A;
 
     /* Border */
-    --border-color: rgba(255,255,255,0.1);
+    --border-color:rgba(255,255,255,0.08);
 
     /* Shadow */
-    --shadow: 0px 10px 30px rgba(0,0,0,0.35);
+    --shadow:0px 10px 30px rgba(0,0,0,0.35);
 
     /* Border Radius */
     --radius:16px;
-
 }
 *{
     margin: 0;
