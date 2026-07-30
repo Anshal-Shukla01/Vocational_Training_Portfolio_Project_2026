@@ -46,319 +46,126 @@
 /* ============================
    GLOBAL STYLES
 ============================ */
-/* =========================================
-   MOBILE RESPONSIVE DESIGN
-========================================= */
 
-/* ===========================================
-   RESPONSIVE DESIGN - MOBILE & SMALL TABLETS
-=========================================== */
 
-@media screen and (max-width:768px){
+/* =========================
+TABLETS + PHONES
+========================= */
 
-    /* Global */
-
-    body{
-        overflow-x:hidden;
-    }
-
-    section{
-        padding:70px 6%;
-    }
-
-    .section-container{
-        width:100%;
-    }
-
-    .section-title{
-        text-align:center;
-        font-size:2rem;
-        margin-bottom:40px;
-    }
-
-    /* ================= NAVBAR ================= */
+@media (max-width:992px){
 
     nav{
-
         flex-direction:column;
-
-        justify-content:center;
-
-        align-items:center;
-
-        gap:18px;
-
+        gap:20px;
         padding:20px;
-
-    }
-
-    nav h1{
-
-        font-size:2rem;
-
-        text-align:center;
-
     }
 
     nav ul{
-
-        display:flex;
-
         flex-wrap:wrap;
-
         justify-content:center;
-
-        align-items:center;
-
-        gap:15px;
-
-        list-style:none;
-
-        padding:0;
-
+        gap:20px;
     }
-
-    nav ul li a{
-
-        font-size:0.95rem;
-
-    }
-
-    /* ================= HERO ================= */
 
     #hero{
-
-        min-height:auto;
-
-        padding-top:60px;
-
-        padding-bottom:60px;
-
+        padding:60px 20px;
     }
 
     .hero-container{
-
         flex-direction:column-reverse;
-
-        align-items:center;
-
         text-align:center;
-
-        gap:40px;
-
+        gap:35px;
     }
 
     .hero-content{
-
+        flex:none;
         width:100%;
-
-    }
-
-    .hero-badge{
-
-        margin:0 auto 20px;
-
-    }
-
-    .hero-content h2{
-
-        font-size:2.6rem;
-
-        line-height:1.2;
-
-    }
-
-    .hero-content h3{
-
-        font-size:1.2rem;
-
     }
 
     .hero-content p{
-
         max-width:100%;
-
-        font-size:1rem;
-
     }
 
     .hero-buttons{
-
         justify-content:center;
-
         flex-wrap:wrap;
-
-        gap:15px;
-
-    }
-
-    .hero-buttons a{
-
-        width:220px;
-
     }
 
     .image-wrapper{
-
         width:100%;
-
-        display:flex;
-
-        justify-content:center;
-
     }
 
     .hero-image{
-
-        width:250px;
-
-        height:250px;
-
+        width:280px;
+        max-width:80vw;
+        aspect-ratio:1;
+        border-radius:50%;
     }
 
     .hero-image img{
-
         width:100%;
-
         height:100%;
-
         object-fit:cover;
-
+        border-radius:50%;
     }
 
-    /* ================= ABOUT ================= */
-
-    .about-content{
-
-        text-align:center;
-
-    }
-
-    /* ================= SKILLS ================= */
-
-    .skills-grid{
-
-        display:grid;
-
-        grid-template-columns:1fr;
-
-        gap:25px;
-
-    }
-
-    .skill-card{
-
-        width:100%;
-
-    }
-
-    /* ================= PROJECTS ================= */
-
-    .projects-grid{
-
-        display:grid;
-
-        grid-template-columns:1fr;
-
-        gap:25px;
-
-    }
-
-    .project-card{
-
-        width:100%;
-
-    }
-
-    /* ================= CERTIFICATES ================= */
-
+    .skills-grid,
+    .projects-grid,
     .certificate-grid{
-
-        display:grid;
-
         grid-template-columns:1fr;
-
-        gap:25px;
-
     }
 
-    .certificate-card{
-
-        width:100%;
-
-    }
-
-    /* ================= CONTACT ================= */
-
-    .contact-info{
-
-        display:flex;
-
-        flex-direction:column;
-
-        gap:20px;
-
-    }
-
-    .contact-item{
-
-        width:100%;
-
-        text-align:center;
-
-    }
-
-    /* ================= FOOTER ================= */
-
-    .footer-content{
-
-        text-align:center;
-
+    .section-container{
+        width:92%;
+        padding:70px 0;
     }
 
 }
-/* ===========================================
-   EXTRA SMALL DEVICES
-=========================================== */
 
-@media screen and (max-width:480px){
+
+/* =========================
+SMALL PHONES
+========================= */
+
+@media (max-width:480px){
 
     nav h1{
-
         font-size:1.7rem;
+    }
 
+    nav ul{
+        gap:14px;
+    }
+
+    nav ul a{
+        font-size:.9rem;
     }
 
     .hero-content h2{
-
-        font-size:2.1rem;
-
+        font-size:2.4rem;
     }
 
     .hero-content h3{
-
-        font-size:1rem;
-
+        font-size:1.2rem;
     }
 
     .hero-content p{
-
-        font-size:0.95rem;
-
+        font-size:.95rem;
     }
 
     .hero-image{
+        width:220px;
+        max-width:75vw;
+        aspect-ratio:1;
+    }
 
-        width:200px;
-
-        height:200px;
-
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
     }
 
     .hero-buttons a{
-
         width:100%;
-
+        max-width:280px;
     }
 
 }
