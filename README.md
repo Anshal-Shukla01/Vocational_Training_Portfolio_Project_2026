@@ -4,6 +4,8 @@
 🏫 **Course:** Computer Science Engineering, Bhilai Institute of Technology, Durg
 📌 **Project Type:** Vocational Training Assignment
 
+🔗 **Live Website:** https://anshal-shukla01.github.io/Vocational_Training_Portfolio_Project_2026/
+
 ---
 
 ## 📖 About the Project
@@ -33,12 +35,12 @@ The website uses a dark, futuristic theme with the following colors:
 
 | Symbol | Name | Hex Code | Used For |
 |:---:|---|---|---|
-| ⬛ | Background | `#0D1117` | Page background |
-| ◼️ | Surface | `#161B22` | Cards and containers |
-| 🟦 | Primary Accent | `#38BDF8` | Headings, links, highlights |
-| 🟪 | Secondary Accent | `#8B5CF6` | Gradients and glow effects |
-| ⬜ | Primary Text | `#F8FAFC` | Main text |
-| ◽ | Secondary Text | `#94A3B8` | Sub-text and descriptions |
+| ⬛ | Background | `#0E1116` | Page background |
+| ◼️ | Surface | `#171C23` | Cards and containers |
+| 🟩 | Primary Accent | `#4CAF50` | Headings, links, highlights |
+| 🟢 | Secondary Accent | `#8BC34A` | Gradients and glow effects |
+| ⬜ | Primary Text | `#F4F4F4` | Main text |
+| ◽ | Secondary Text | `#B8C0CC` | Sub-text and descriptions |
 
 ## 📁 Project Structure
 
@@ -56,12 +58,28 @@ Vocational_Training_Portfolio_Project_2026/
 
 | # | Section | Description |
 |:---:|---|---|
-| 1️⃣ | **Home** | Introduction with name and short description |
-| 2️⃣ | **About** | Details about my background and goals |
-| 3️⃣ | **Skills** | Programming languages, web development skills, and tools I know |
-| 4️⃣ | **Projects** | A section showing my project with a link to its GitHub repository |
-| 5️⃣ | **Certificates** | Certificates I have earned, with links to view them |
-| 6️⃣ | **Contact** | Ways to reach me (email, LinkedIn, GitHub) |
+| 1️⃣ | **Home** | Introduction, current focus badge, and quick links to Projects & Contact |
+| 2️⃣ | **About** | Background, current learning focus, and career goals |
+| 3️⃣ | **Skills** | Programming, web development, tools, and skills currently being learned |
+| 4️⃣ | **Projects** | Portfolio website project card with a link to the source code |
+| 5️⃣ | **Certificates** | Verified certificates with links to view them |
+| 6️⃣ | **Contact** | Email, LinkedIn, and GitHub to connect |
+
+## 💻 Skills Showcased
+
+| Category | Skills |
+|---|---|
+| 🖥️ Programming | C, C++, Python |
+| 🌐 Web Development | HTML5, CSS3 *(learning)* |
+| 🛠 Tools | Git, GitHub, Visual Studio Code |
+| 📚 Currently Learning | CSS, Responsive Web Design |
+
+## 🏆 Certificates
+
+| Certificate | Issued By | Link |
+|---|---|---|
+| 🤖 Google AI Essentials | Coursera (in collaboration with Google) | [View Certificate](https://www.coursera.org/account/accomplishments/specialization/40DMXR1RBKUG) |
+| 📜 NPTEL Certification | NPTEL | [View Certificate](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS137S106700032110371834) |
 
 ## 🚀 How to Run This Project
 
@@ -78,13 +96,15 @@ Just click the link below to view the live website:
 - 📱 How to make a webpage responsive for different screen sizes
 - 🗂️ How to organize a project into folders (CSS, Images, etc.)
 - 🔗 How to link sections of a page using anchor tags for navigation
+- 🖼️ How to reference images and external links (certificates, projects) within HTML
 
 ## 📬 Contact
 
 👤 **Anshal Shukla**
-📧 Email: anshalshukla77@gmail.com
-💼 LinkedIn: https://www.linkedin.com/in/anshal-shukla-756837339/
-🐙 GitHub: https://github.com/Anshal-Shukla01
+📧 Email: [anshalshukla77@gmail.com](mailto:anshalshukla77@gmail.com)
+💼 LinkedIn: [linkedin.com/in/anshal-shukla-756837339](https://www.linkedin.com/in/anshal-shukla-756837339/)
+🐙 GitHub: [github.com/Anshal-Shukla01](https://github.com/Anshal-Shukla01)
 
 ---
 📝 *Submitted as part of Vocational Training, 2026.*
+© 2026 Anshal Shukla. All Rights Reserved.
